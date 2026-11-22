@@ -1,0 +1,19 @@
+trial,experiment,protocol,rtt_ms,loss_pct,run,first_request_frame,preceding_server_response_frames,required_response_round_trips,verification
+0002-handshake-h3-run2,handshake,h3,20,0,2,10,4,1,request and prerequisite server response flights decoded
+0004-handshake-h3-run2,handshake,h3,100,0,2,10,4,1,request and prerequisite server response flights decoded
+0009-handshake-h3-run3,handshake,h3,200,0,3,10,4,1,request and prerequisite server response flights decoded
+0012-handshake-h2-run3,handshake,h2,20,0,3,13,2 8,2,request and prerequisite server response flights decoded
+0013-handshake-h3-run1,handshake,h3,200,0,1,10,4,1,request and prerequisite server response flights decoded
+0015-handshake-h3-run1,handshake,h3,20,0,1,10,4,1,request and prerequisite server response flights decoded
+0017-handshake-h2-run2,handshake,h2,20,0,2,13,2 8,2,request and prerequisite server response flights decoded
+0018-handshake-h2-run3,handshake,h2,200,0,3,13,2 8,2,request and prerequisite server response flights decoded
+0021-handshake-h3-run3,handshake,h3,100,0,3,10,4,1,request and prerequisite server response flights decoded
+0022-handshake-h2-run2,handshake,h2,100,0,2,13,2 8,2,request and prerequisite server response flights decoded
+0023-handshake-h2-run1,handshake,h2,200,0,1,13,2 8,2,request and prerequisite server response flights decoded
+0025-handshake-h2-run3,handshake,h2,100,0,3,13,2 8,2,request and prerequisite server response flights decoded
+0036-handshake-h3-run3,handshake,h3,20,0,3,10,4,1,request and prerequisite server response flights decoded
+0037-handshake-h2-run1,handshake,h2,20,0,1,13,2 8,2,request and prerequisite server response flights decoded
+0038-handshake-h3-run2,handshake,h3,200,0,2,10,4,1,request and prerequisite server response flights decoded
+0048-handshake-h2-run2,handshake,h2,200,0,2,13,2 8,2,request and prerequisite server response flights decoded
+0049-handshake-h2-run1,handshake,h2,100,0,1,13,2 8,2,request and prerequisite server response flights decoded
+0054-handshake-h3-run1,handshake,h3,100,0,1,10,4,1,request and prerequisite server response flights decoded

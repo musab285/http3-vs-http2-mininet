@@ -1,0 +1,16 @@
+experiment,protocol,rtt_ms,loss_pct,metric,n,mean,sd,ci95_low,ci95_high
+handshake,h2,20,0,request_ready_round_trips,3,2.0,0.0,2.0,2.0
+handshake,h2,100,0,request_ready_round_trips,3,2.0,0.0,2.0,2.0
+handshake,h2,200,0,request_ready_round_trips,3,2.0,0.0,2.0,2.0
+handshake,h3,20,0,request_ready_round_trips,3,1.0,0.0,1.0,1.0
+handshake,h3,100,0,request_ready_round_trips,3,1.0,0.0,1.0,1.0
+handshake,h3,200,0,request_ready_round_trips,3,1.0,0.0,1.0,1.0
+handshake_0rtt,h3,20,0,request_ready_round_trips,3,0.0,0.0,0.0,0.0
+handshake_0rtt,h3,100,0,request_ready_round_trips,3,0.0,0.0,0.0,0.0
+handshake_0rtt,h3,200,0,request_ready_round_trips,3,0.0,0.0,0.0,0.0
+handshake_resumed,h2,20,0,request_ready_round_trips,3,2.0,0.0,2.0,2.0
+handshake_resumed,h2,100,0,request_ready_round_trips,3,2.0,0.0,2.0,2.0
+handshake_resumed,h2,200,0,request_ready_round_trips,3,2.0,0.0,2.0,2.0
+handshake_resumed,h3,20,0,request_ready_round_trips,3,1.0,0.0,1.0,1.0
+handshake_resumed,h3,100,0,request_ready_round_trips,3,1.0,0.0,1.0,1.0
+handshake_resumed,h3,200,0,request_ready_round_trips,3,1.0,0.0,1.0,1.0

@@ -1,0 +1,14 @@
+{
+  "workload_source": "/home/mmak/Documents/CNProject/results/automated-20261121T173514-701197Z",
+  "handshake_source": "/home/mmak/Documents/CNProject/results/automated-20261121T200045-061914Z",
+  "page_source": "/home/mmak/Documents/CNProject/results/automated-20261121T213013-819626Z",
+  "verified_trials": 81,
+  "conditions": 27,
+  "page_measurement": "Instrumented libcurl client; monotonic body-delivery timestamps; one connection; request durations start at outgoing request headers.",
+  "method": "Sample standard deviation; two-sided Student t confidence interval for each mean. Cold handshakes sourced only from dedicated handshake sweep.",
+  "limitations": [
+    "Three repetitions per group meet the common minimum; proposal requests 30.",
+    "Confidence intervals describe sampling variation across these trials.",
+    "Application callback pauses are correlated with observed transport gaps; correlation alone does not establish packet-loss causality."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+	skip_install_trust
+	default_sni 10.0.2.10
+	servers {
+		protocols h1 h2 h3
+	}
+}
+
+https://10.0.2.10 {
+	tls internal {
+		protocols tls1.3
+		insecure_secrets_log ./results/server.keys
+	}
+
+	root * ./content
+	header Cache-Control "no-store"
+	file_server
+}

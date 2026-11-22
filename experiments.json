@@ -1,0 +1,60 @@
+{
+  "runs": 30,
+  "seed": 2026,
+  "profiles": [
+    {
+      "experiment": "handshake",
+      "rtt_ms": 20,
+      "loss_pct": 0,
+      "rate_mbit": 50
+    },
+    {
+      "experiment": "handshake",
+      "rtt_ms": 100,
+      "loss_pct": 0,
+      "rate_mbit": 50
+    },
+    {
+      "experiment": "handshake",
+      "rtt_ms": 200,
+      "loss_pct": 0,
+      "rate_mbit": 50
+    },
+    {
+      "experiment": "page",
+      "rtt_ms": 100,
+      "loss_pct": 0,
+      "rate_mbit": 50
+    },
+    {
+      "experiment": "page",
+      "rtt_ms": 100,
+      "loss_pct": 2,
+      "rate_mbit": 50
+    },
+    {
+      "experiment": "page",
+      "rtt_ms": 100,
+      "loss_pct": 5,
+      "rate_mbit": 50
+    },
+    {
+      "experiment": "bulk",
+      "rtt_ms": 100,
+      "loss_pct": 0,
+      "rate_mbit": 50
+    },
+    {
+      "experiment": "bulk",
+      "rtt_ms": 100,
+      "loss_pct": 2,
+      "rate_mbit": 50
+    },
+    {
+      "experiment": "bulk",
+      "rtt_ms": 100,
+      "loss_pct": 5,
+      "rate_mbit": 50
+    }
+  ]
+}

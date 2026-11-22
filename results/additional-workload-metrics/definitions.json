@@ -1,0 +1,6 @@
+{
+  "request_median_s": "Median successful request duration per trial from h2load log; log rows have no explicit stream ID.",
+  "request_ready_round_trips": "Count of server SYN-ACK and ServerHello response flights seen before the first decoded client request. Required handshake response exchanges, not elapsed time divided by configured RTT.",
+  "retransmissions": "Repeated sender-side TCP byte ranges or QUIC stream ranges sent in distinct packet numbers. TCP includes TLS overhead. QUIC includes HTTP/3 framing. Frames are capture frames, potentially containing multiple QUIC packets.",
+  "recovery": "Receiver-side observed gap intervals; may include reordering. Loss-event attribution and application stall measurement require additional correlation."
+}

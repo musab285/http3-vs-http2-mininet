@@ -1,0 +1,33 @@
+# Downloaded or locally built dependencies
+.build/
+.tools/
+.lab-data/
+.venv/
+
+# Runtime and TLS secrets
+*.keys
+*.key
+*.pem
+*.crt
+server.keys
+
+# Raw, large and regenerated experiment artifacts
+results/automated-*/
+results/*/caddy-data/
+*.pcap
+*.pcapng
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# LaTeX build and preview files
+report/*.aux
+report/*.log
+report/*.out
+report/*.synctex.gz
+report/preview/
+
+# Local editor and OS settings
+.DS_Store
+.vscode/

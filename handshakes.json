@@ -1,0 +1,93 @@
+{
+  "runs": 3,
+  "seed": 2026,
+  "profiles": [
+    {
+      "experiment": "handshake",
+      "protocols": [
+        "h2",
+        "h3"
+      ],
+      "rtt_ms": 20,
+      "loss_pct": 0,
+      "rate_mbit": 50
+    },
+    {
+      "experiment": "handshake_resumed",
+      "protocols": [
+        "h2",
+        "h3"
+      ],
+      "rtt_ms": 20,
+      "loss_pct": 0,
+      "rate_mbit": 50
+    },
+    {
+      "experiment": "handshake_0rtt",
+      "protocols": [
+        "h3"
+      ],
+      "rtt_ms": 20,
+      "loss_pct": 0,
+      "rate_mbit": 50
+    },
+    {
+      "experiment": "handshake",
+      "protocols": [
+        "h2",
+        "h3"
+      ],
+      "rtt_ms": 100,
+      "loss_pct": 0,
+      "rate_mbit": 50
+    },
+    {
+      "experiment": "handshake_resumed",
+      "protocols": [
+        "h2",
+        "h3"
+      ],
+      "rtt_ms": 100,
+      "loss_pct": 0,
+      "rate_mbit": 50
+    },
+    {
+      "experiment": "handshake_0rtt",
+      "protocols": [
+        "h3"
+      ],
+      "rtt_ms": 100,
+      "loss_pct": 0,
+      "rate_mbit": 50
+    },
+    {
+      "experiment": "handshake",
+      "protocols": [
+        "h2",
+        "h3"
+      ],
+      "rtt_ms": 200,
+      "loss_pct": 0,
+      "rate_mbit": 50
+    },
+    {
+      "experiment": "handshake_resumed",
+      "protocols": [
+        "h2",
+        "h3"
+      ],
+      "rtt_ms": 200,
+      "loss_pct": 0,
+      "rate_mbit": 50
+    },
+    {
+      "experiment": "handshake_0rtt",
+      "protocols": [
+        "h3"
+      ],
+      "rtt_ms": 200,
+      "loss_pct": 0,
+      "rate_mbit": 50
+    }
+  ]
+}

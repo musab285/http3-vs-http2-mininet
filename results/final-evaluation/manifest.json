@@ -1,0 +1,12 @@
+{
+  "workload_source": "/home/mmak/Documents/CNProject/results/automated-20261121T173514-701197Z",
+  "handshake_source": "/home/mmak/Documents/CNProject/results/automated-20261121T200045-061914Z",
+  "verified_trials": 81,
+  "conditions": 27,
+  "method": "Sample standard deviation; two-sided Student t confidence interval for each mean. Cold handshakes sourced only from dedicated handshake sweep.",
+  "limitations": [
+    "Three repetitions per group meet the common minimum; proposal requests 30.",
+    "Confidence intervals describe sampling variation across these trials.",
+    "Transport-gap analysis does not measure application delivery stalls."
+  ]
+}
